@@ -1,7 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Linkimage from './Linkimage';
+import bmw from './e46.jpg';
+import pad from './gamepad.png';
 
-function App() {
+function App() 
+
+{
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +14,11 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <div style={{display:'grid'}}
+          >
+            <Linkimage tekst={<img class="imagelogo" src={pad} alt='zdjecie_gamepada'/>}/>
+            <Linkimage tekst={<img class="imagelogo" src={bmw} alt='zdjecie_bmw'/>}/>
+        </div>
         <a
           className="App-link"
           href="https://reactjs.org"
