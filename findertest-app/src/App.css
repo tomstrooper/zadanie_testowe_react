@@ -1,12 +1,24 @@
 .App {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
 .App-header {
+  display: flex;
+  flex-direction: row;
   min-height: 20vh;
   font-size: calc(10px + 2vmin);
+  font-weight: bold;
   text-align: left;
-  margin-left: 5%;
+  align-items: center;
+}
+
+.mnniejeszyopis{
+  font-size: calc(5px + 2vmin);
+  font-weight: normal;
+  margin-top: 5px;
 }
 
 .App-link {
@@ -15,11 +27,12 @@
 
 .imagelogo{
   border-radius: 20px;
-  padding: 3px;
+  padding: 2px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 10px;
-  height: 100px;
+  margin-bottom: 10px;
+  width: 200px;
+  background-color: gray;
 }
 .imagelogo:hover{
   cursor: pointer;
@@ -27,7 +40,38 @@
 }
 
 .zdjeciawrzedzie{
+  margin-left: 10px;
+  margin-right: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+  
+.button:hover{
+  cursor: pointer;
+}
 
+@media screen and (max-width: 768px){
+  .zdjeciawrzedzie{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and
+(min-width: 769px) and (max-width:1024px){
+  .zdjeciawrzedzie{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and
+(min-width: 1025px) and (max-width:1300px){
+  .zdjeciawrzedzie{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .imagelogo{
+    width: 90%;
+  }
+}

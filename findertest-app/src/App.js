@@ -23,9 +23,12 @@ function App()
     <div className="App">
       <header className="App-header">
         <div>
+        <div>
           Join 2 milion+ Australians finding better
         </div>
-
+        <div className='mnniejeszyopis'>
+          Finder's team of 40 experts will help you to find the right choice in over 100 categories.</div>
+        </div>
       </header>
 
       <body>
@@ -33,7 +36,7 @@ function App()
         <Wszystkieopcje czyrozwinac={buttontekst}/>
       </div>
       
-      <button onClick={buttontekstchange}>{buttontekst}</button>
+      <button className='button' onClick={buttontekstchange}>{buttontekst}</button>
       </body>
     </div>
   );
