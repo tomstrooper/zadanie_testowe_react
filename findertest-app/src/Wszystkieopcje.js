@@ -2,6 +2,7 @@ import React from 'react'
 import Linkimage from './Linkimage';
 import bmw from './e46.jpg';
 import pad from './gamepad.png';
+import creditcard from './creditcard.png';
 
 export default function Wszystkieopcje({czyrozwinac}) {
   return (
@@ -9,10 +10,10 @@ export default function Wszystkieopcje({czyrozwinac}) {
         {czyrozwinac==='show less'
         ?<div>
             <div className='zdjeciawrzedzie'>
-                <Linkimage tekst={<img class="imagelogo" src={pad} alt='zdjecie_gamepada'/ >}/>
+                <Linkimage tekst={<img class="imagelogo" src={creditcard} alt='creditcard'/>}/>
                 <Linkimage tekst={<img class="imagelogo" src={bmw} alt='zdjecie_bmw'/>}/>
                 <Linkimage tekst={<img class="imagelogo" src={bmw} alt='zdjecie_bmw'/>}/>
-                <Linkimage tekst={<img class="imagelogo" src={pad} alt='zdjecie_gamepada'/ >}/>
+                <Linkimage tekst={<img class="imagelogo" src={pad} alt='zdjecie_gamepada'/>}/>
                 <Linkimage tekst={<img class="imagelogo" src={bmw} alt='zdjecie_bmw'/>}/>
                 <Linkimage tekst={<img class="imagelogo" src={bmw} alt='zdjecie_bmw'/>}/>
             </div>

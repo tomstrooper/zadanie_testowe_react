@@ -9,16 +9,19 @@
   display: flex;
   flex-direction: row;
   min-height: 20vh;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(32px);
   font-weight: bold;
   text-align: left;
   align-items: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .mnniejeszyopis{
-  font-size: calc(5px + 2vmin);
+  font-size: calc(20px);
   font-weight: normal;
   margin-top: 5px;
+  color: gray;
 }
 
 .App-link {
@@ -31,7 +34,7 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
-  width: 200px;
+  width: 90%;
   background-color: gray;
 }
 .imagelogo:hover{
@@ -70,8 +73,5 @@
   .zdjeciawrzedzie{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  }
-  .imagelogo{
-    width: 90%;
   }
 }
