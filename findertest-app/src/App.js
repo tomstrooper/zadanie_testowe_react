@@ -7,16 +7,16 @@ import Wszystkieopcje from './Wszystkieopcje';
 
 function App() 
 {
-  const[buttontekst,SetButtontekst]=useState('show more');
+  const[buttontekst,SetButtontekst]=useState('show more ˅');
 
   const buttontekstchange=()=>{
-    if(buttontekst==='show more')
+    if(buttontekst==='show more ˅')
     {
-        SetButtontekst('show less')
+        SetButtontekst('show less ˄')
     }
     else
     {
-        SetButtontekst('show more')
+        SetButtontekst('show more ˅')
     }
   }
   return (

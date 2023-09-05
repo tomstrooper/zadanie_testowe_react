@@ -1,5 +1,5 @@
 .App {
-  max-width: 1400px;
+  max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -9,18 +9,20 @@
   display: flex;
   flex-direction: row;
   min-height: 20vh;
-  font-size: calc(32px);
+  font-size: 25px;
   font-weight: bold;
   text-align: left;
   align-items: center;
   margin-left: 5vw;
   margin-right: 5vw;
+  margin-top: 2vh;
 }
 
 .mnniejeszyopis{
-  font-size: calc(20px);
+  font-size: 15px;
   font-weight: normal;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
   color: gray;
 }
 
@@ -48,7 +50,17 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-  
+
+.button{
+  margin-bottom: 10vh;
+  padding: 0;
+  background: none;
+  border: none;
+  font: inherit;
+  color: rgb(0, 102, 255);
+  font-weight: bold;
+}
+
 .button:hover{
   cursor: pointer;
 }
